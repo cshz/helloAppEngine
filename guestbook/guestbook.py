@@ -16,7 +16,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 MAIN_PAGE_FOOTER_TEMPLATE = """\
     <form action="/sign?%s" method="post">
       <div><textarea name="content" rows="3" cols="60"></textarea></div>
-      <div><input type="submit" value="Sign Guestbook"></div>
+      <div><input type="submit" value="Enter a message."></div>
     </form>
     <hr>
     <form>Guestbook name:
